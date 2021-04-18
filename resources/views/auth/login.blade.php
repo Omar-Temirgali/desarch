@@ -63,7 +63,7 @@
     </div>
 </div> --}}
 <div class="log">
-    <h2>Welcome Back</h2>
+    <h2>{{__('Welcome Back')}}</h2>
     <form method="POST" action="{{ route('login') }}">
         @csrf
         <div class="input-cont">

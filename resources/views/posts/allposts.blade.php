@@ -10,13 +10,13 @@
                     </div>
                     <div>
                         <h3><a href="/posts/{{$post->id}}" class="title">{{$post->title}}</a></h3>
-                        <small>Published on {{$post->created_at}} by {{$post->user->name}}</small>
+                        <small>{{__('Published on')}} {{$post->created_at}} {{__('by')}} {{$post->user->name}}</small>
                     </div>
                 </div>
             @endforeach
             {{$posts->links()}} 
         @else
-            <p>No posts found</p>
+            <p>{{__('No posts found')}}</p>
         @endif
     </div>
 @endsection

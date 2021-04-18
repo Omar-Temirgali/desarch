@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h2>{{ __('Dashboard') }}</h2>
-    <a href="/posts/create" class="btn-default">Create Post</a>
+    <a href="/posts/create" class="btn-default">{{__('Create Post')}}</a>
     @if(count($posts) > 0)
         <p>{{ __('Your articles') }}</p>
         
@@ -20,14 +20,14 @@
                         <a href="/posts/{{$post->id}}/edit" class="btn-default mrgn-r">{{__('Edit')}}</a>
                     {!!Form::open(['action'=>['App\Http\Controllers\PostsController@destroy', $post->id], 'method'=>'POST'])!!}
                         {{Form::hidden('_method', 'DELETE')}}
-                        {{Form::submit('Delete', ['class'=>'btn-default mrgn-r'])}}
+                        {{Form::submit(__('Delete'), ['class'=>'btn-default mrgn-r'])}}
                     {!!Form::close()!!}
                     </div>
                 </div>
             </div>
         @endforeach
     @else
-            <p>You have no articles</p>
+        <p>{{__('You have no articles')}}</p>
     @endif
 </div>
 @endsection
