@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,6 @@ use App\Http\Controllers\PostsController;
 
 Route::get('/', [PagesController::class, 'index']);
 Route::get('/about', [PagesController::class, 'about']);
-// Route::get('/services', [PagesController::class, 'services']);
 Route::get('/contact', [PagesController::class, 'contact']);
 
 Route::resource('posts', PostsController::class);
@@ -26,3 +26,5 @@ Route::post('ckeditor/upload', [CKEditorController::class, 'upload'])->name('cke
 Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index']);
+
+Route::get('/mail/send', [MailController::class, 'send']);

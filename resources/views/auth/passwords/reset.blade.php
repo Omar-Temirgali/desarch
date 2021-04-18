@@ -62,4 +62,26 @@
         </div>
     </div>
 </div>
+
+<div class="log">
+    <h2>Welcome Back</h2>
+    <form>
+      <div class="input-cont">
+        <input type="text">
+        <label>Username</label>
+        <div class="border1"></div>
+      </div>
+      <div class="input-cont">
+        <input type="password">
+        <label>Password</label>
+        <div class="border2"></div>
+      </div>
+      <span class="check">
+        <input type="checkbox"> <label>Remember Me</label>
+      </span>
+      <a href="#">Forgot Password</a>
+      <div class="clear"></div>
+      <input type="submit" value="Sign In">   
+    </form>
+</div>
 @endsection
