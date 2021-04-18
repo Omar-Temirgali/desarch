@@ -73,7 +73,7 @@ ul li ul li a {
 }
 
 .home {
-    background-image: url(/images/homepage.jpg?649545e44ce7a0c586e690afbcad79fd);
+    background-image: url('../images/homepage.jpg');
     height: 400px;
     background-size: cover;
 }
@@ -86,10 +86,10 @@ ul li ul li a {
     text-transform: uppercase;
 }
 .home-1 {
-    background-image: url(/images/homepage-1.jpg?e146f1e92828dde0f99cf9b13a3a7d58);
-    height: 400px;
+    background-image: url('../images/homepage-1.jpg');
+    height: 600px;
     background-size: cover;
-    background-position-y: -150px;
+    background-position-y: -550px;
 }
 
 .container {
@@ -289,11 +289,25 @@ section {
 }
 
 .item {
-    background-color: rgb(212, 212, 212);
+    display: flex;
+    background-color: rgb(245, 245, 245);
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid grey;
     border-radius: 5px;
+    padding: 20px;
+}
+.img-cover {
+    margin-right: 40px;
+}
+.title {
+    color: black;
+}
+
+.about {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .h-form, .btn-submit {

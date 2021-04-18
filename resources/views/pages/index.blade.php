@@ -20,6 +20,8 @@
             a style has gone out of fashion, there are often revivals and re-interpretations. For instance, 
             classicism has been revived many times and found new life as neoclassicism. Each time it is 
             revived, it is different.
+        </p>
+        <p class="paragraph">
             Vernacular architecture works slightly differently and is listed separately. It is the 
             native method of construction used by local people, usually using labour-intensive methods 
             and local materials, and usually for small structures such as rural cottages. It varies from 
@@ -28,6 +30,34 @@
             and national building standards.
         </p>
     </div>
-    {{-- <div class="home-1"></div> --}}
+    <div class="home-1"></div>
+    <div class="container">
+        <p class="paragraph">
+            Architectural Styles often spread to other places, so that the style at its source continues 
+            to develop in new ways while other countries follow with their own twist. For instance, 
+            Renaissance ideas emerged in Italy around 1425 and spread to all of Europe over the next 
+            200 years, with the French, German, English, and Spanish Renaissances showing recognisably 
+            the same style, but with unique characteristics. An architectural style may also spread 
+            through colonialism, either by foreign colonies learning from their home country, or by settlers 
+            moving to a new land. One example is the Spanish missions in California, brought by Spanish 
+            priests in the late 18th century and built in a unique style.
+        </p>
+        <p class="paragraph">
+            After an architectural style has gone out of fashion, revivals and re-interpretations 
+            may occur. For instance, classicism has been revived many times and found new life as 
+            neoclassicism. Each time it is revived, it is different. The Spanish mission style was 
+            revived 100 years later as the Mission Revival, and that soon evolved into the Spanish 
+            Colonial Revival.
+        </p>
+        <p class="paragraph">
+            Vernacular architecture is listed separately. As vernacular architecture is better understood 
+            as suggestive of culture, writ broadly (as well as a theory and a process rather than a 
+            thing-in-itself), it technically can encompass every architectural style--or none at all. 
+            In and of itself, vernacular architecture is not a style.
+        </p>
+        <div class="subscribe">
+            
+        </div>
+    </div>
 @endsection
 
