@@ -1,5 +1,3 @@
-<p align="center"><img src="storage/app/public/post_cover_imgs/img_default.jpg" width="200px"></p>
-
 ## About Project
 
 DesARCH is a web application where you can share new architectural styles and designs for buildings, 
